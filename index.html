@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <center>
+        <h1>Calculator</h1>
+        <input type="text" placeholder="Enter Number 1" id="num1">
+        <input type="text" placeholder="Enter Number 2" id="num2">
+        <br><br>
+        <button onclick="sum()">Add</button>
+        <button onclick="sub()">Subtract</button>
+        <button onclick="mul()">Multiply</button>
+        <button onclick="div()">Divide</button>
+        <br><br>
+        <input type="text" placeholder="Result" id="result" readonly>
+        <button onclick="clr()">Clear</button>
+    </center>
+    <br><br><br>
+    <hr>
+    <hr>
+    <br><br><br>
+    <button onclick="add()">ADD CLASS</button>
+    <button onclick="rem()">REMOVE CLASS</button>
+    <button onclick="tog()">TOGGLE CLASS</button>
+    <BR><BR>
+    <div class="container class" id="container">JavaScript</div>
+
+
+    <div class="accordion">
+        <div class="acc_head" onclick="heas()">
+            <h1>Accordion</h1>
+            <i id="add" >+</i>
+            <i id="min" class="activeicon">-</i>
+        </div>
+        <div class="acc_body" id="active">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum itaque corrupti quae, aperiam beatae hic
+                aut dolores nesciunt magni? Neque repellendus suscipit est veritatis, eius corrupti sit consequuntur
+                consequatur iste?</p>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
